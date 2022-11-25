@@ -252,8 +252,7 @@ def eliminarResultado(id):
     json = response.json()
     return jsonify(json)
 
-###############################################
-
+####################################################
 
 ############## resultados #################################
 
@@ -294,7 +293,6 @@ def eliminarResultado(id):
     response = requests.delete(url, headers=headers)
     json = response.json()
     return jsonify(json)
-
 
 ###############################################
 
